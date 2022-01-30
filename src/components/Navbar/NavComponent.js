@@ -2,6 +2,7 @@
 import { Fragment } from 'react'
 import { Disclosure, Menu, Transition } from '@headlessui/react'
 import { BellIcon, MenuIcon, XIcon } from '@heroicons/react/outline'
+import './NavComponent.css'
 
 const navigation = [
     { name: 'Profile', href: 'profile', current: true },
@@ -21,7 +22,7 @@ export default function NavComponent() {
                         <div className="flex items-center justify-between h-16">
                             <div className="flex items-center">
                                 <div className="flex-shrink-0">
-                                 <h1 class="mr-1">Luku The Mad Skald</h1>
+                                 <h1 class='lukuHeader'>Luku The Mad Skald</h1>
                                 </div>
                                 <div className="hidden sm:block sm:ml-6">
                                     <div className="flex space-x-4">

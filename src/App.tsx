@@ -2,7 +2,7 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 import { Routes, Route } from 'react-router-dom';
-import NavComponent from './components/NavComponent';
+import NavComponent from './components/Navbar/NavComponent';
 
 function App() {
   return (
