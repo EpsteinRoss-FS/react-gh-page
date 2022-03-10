@@ -6,8 +6,11 @@ import './NavComponent.css'
 
 const navigation = [
     { name: 'Home', href: '/', current: false },
-    { name: 'Media', href: 'media', current: true },
+    { name: 'Media', href: 'media', current: false },
     { name: 'Gallery', href: 'gallery', current: false },
+    { name: 'Presskit', href: 'press-kit', current: false },
+    { name: 'Socialmedia', href: 'social-media', current: false },
+    { name: 'Songs', href: 'songs', current: false },
 
 ]
 
@@ -39,16 +42,34 @@ export default function NavComponent() {
                                             Media
                                         </a>
                                         <a
-                                            href="#"
+                                            href="events"
                                             className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
                                         >
                                             Events
                                         </a>
                                         <a
-                                            href="#"
+                                            href="gallery"
                                             className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
                                         >
                                             Gallery
+                                        </a>
+                                        <a
+                                            href="press-kit"
+                                            className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+                                        >
+                                            Press Kit
+                                        </a>
+                                        <a
+                                            href="social-media"
+                                            className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+                                        >
+                                            Social Media
+                                        </a>
+                                        <a
+                                            href="songs"
+                                            className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+                                        >
+                                            Songs
                                         </a>
                                     </div>
                                 </div>
@@ -93,7 +114,7 @@ export default function NavComponent() {
                             {/* Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" */}
                             <Disclosure.Button
                                 as="a"
-                                href="#"
+                                href="/"
                                 className="bg-gray-900 text-white block px-3 py-2 rounded-md text-base font-medium"
                             >
                                 Home
@@ -107,17 +128,38 @@ export default function NavComponent() {
                             </Disclosure.Button>
                             <Disclosure.Button
                                 as="a"
-                                href="#"
+                                href="events"
                                 className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
                             >
                                 Events
                             </Disclosure.Button>
                             <Disclosure.Button
                                 as="a"
-                                href="#"
+                                href="gallery"
                                 className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
                             >
                                 Gallery
+                            </Disclosure.Button>
+                            <Disclosure.Button
+                                as="a"
+                                href="press-kit"
+                                className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
+                            >
+                                Press Kit
+                            </Disclosure.Button>
+                            <Disclosure.Button
+                                as="a"
+                                href="social-media"
+                                className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
+                            >
+                                Social Media
+                            </Disclosure.Button>
+                            <Disclosure.Button
+                                as="a"
+                                href="songs"
+                                className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
+                            >
+                                Songs
                             </Disclosure.Button>
                         </div>
 
