@@ -1,3 +1,8 @@
+@font-face {
+  font-family: 'Darkenstone';
+  src: url('./assets/fonts/RINGM___.TTF') format('truetype');
+}
+
 .App {
   text-align: center;
 }
