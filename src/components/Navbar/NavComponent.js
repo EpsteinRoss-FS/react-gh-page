@@ -5,7 +5,9 @@ import { BellIcon, MenuIcon, XIcon } from '@heroicons/react/outline'
 import './NavComponent.css'
 
 const navigation = [
-    { name: 'Profile', href: 'profile', current: true },
+    { name: 'Home', href: '/', current: false },
+    { name: 'Media', href: 'media', current: true },
+    { name: 'Gallery', href: 'gallery', current: false },
 
 ]
 
@@ -27,11 +29,11 @@ export default function NavComponent() {
                                 <div className="hidden  links sm:block sm:ml-6">
                                     <div className="flex space-x-4">
                                         {/* Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" */}
-                                        <a href="#" className="bg-gray-900 text-white px-3 py-2 rounded-md text-sm font-medium">
+                                        <a href="/" className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">
                                             Home
                                         </a>
                                         <a
-                                            href="#"
+                                            href="media"
                                             className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
                                         >
                                             Media
@@ -67,47 +69,7 @@ export default function NavComponent() {
                                             leaveFrom="transform opacity-100 scale-100"
                                             leaveTo="transform opacity-0 scale-95"
                                         >
-                                            <Menu.Items className="origin-top-right absolute right-0 mt-2 w-48 rounded-md shadow-lg py-1 bg-white ring-1 ring-black ring-opacity-5 focus:outline-none">
-                                                <Menu.Item>
-                                                    {({ active }) => (
-                                                        <a
-                                                            href="#"
-                                                            className={classNames(
-                                                                active ? 'bg-gray-100' : '',
-                                                                'block px-4 py-2 text-sm text-gray-700'
-                                                            )}
-                                                        >
-                                                            Your Profile
-                                                        </a>
-                                                    )}
-                                                </Menu.Item>
-                                                <Menu.Item>
-                                                    {({ active }) => (
-                                                        <a
-                                                            href="#"
-                                                            className={classNames(
-                                                                active ? 'bg-gray-100' : '',
-                                                                'block px-4 py-2 text-sm text-gray-700'
-                                                            )}
-                                                        >
-                                                            Settings
-                                                        </a>
-                                                    )}
-                                                </Menu.Item>
-                                                <Menu.Item>
-                                                    {({ active }) => (
-                                                        <a
-                                                            href="#"
-                                                            className={classNames(
-                                                                active ? 'bg-gray-100' : '',
-                                                                'block px-4 py-2 text-sm text-gray-700'
-                                                            )}
-                                                        >
-                                                            Sign out
-                                                        </a>
-                                                    )}
-                                                </Menu.Item>
-                                            </Menu.Items>
+
                                         </Transition>
                                     </Menu>
                                 </div>
@@ -138,7 +100,7 @@ export default function NavComponent() {
                             </Disclosure.Button>
                             <Disclosure.Button
                                 as="a"
-                                href="#"
+                                href="media"
                                 className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
                             >
                                 Media
