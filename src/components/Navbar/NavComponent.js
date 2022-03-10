@@ -28,50 +28,35 @@ export default function NavComponent() {
                                     <div className="flex space-x-4">
                                         {/* Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" */}
                                         <a href="#" className="bg-gray-900 text-white px-3 py-2 rounded-md text-sm font-medium">
-                                            Dashboard
+                                            Home
                                         </a>
                                         <a
                                             href="#"
                                             className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
                                         >
-                                            Team
+                                            Media
                                         </a>
                                         <a
                                             href="#"
                                             className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
                                         >
-                                            Projects
+                                            Events
                                         </a>
                                         <a
                                             href="#"
                                             className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
                                         >
-                                            Calendar
+                                            Gallery
                                         </a>
                                     </div>
                                 </div>
                             </div>
                             <div className="hidden sm:ml-6 sm:block">
                                 <div className="flex items-center">
-                                    <button
-                                        type="button"
-                                        className="bg-gray-800 p-1 rounded-full text-gray-400 hover:text-white focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white"
-                                    >
-                                        <span className="sr-only">View notifications</span>
-                                        <BellIcon className="h-6 w-6" aria-hidden="true" />
-                                    </button>
 
                                     {/* Profile dropdown */}
                                     <Menu as="div" className="ml-3 relative">
                                         <div>
-                                            <Menu.Button className="bg-gray-800 flex text-sm rounded-full focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white">
-                                                <span className="sr-only">Open user menu</span>
-                                                <img
-                                                    className="h-8 w-8 rounded-full"
-                                                    src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
-                                                    alt=""
-                                                />
-                                            </Menu.Button>
                                         </div>
                                         <Transition
                                             as={Fragment}
@@ -149,75 +134,31 @@ export default function NavComponent() {
                                 href="#"
                                 className="bg-gray-900 text-white block px-3 py-2 rounded-md text-base font-medium"
                             >
-                                Dashboard
+                                Home
                             </Disclosure.Button>
                             <Disclosure.Button
                                 as="a"
                                 href="#"
                                 className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
                             >
-                                Team
+                                Media
                             </Disclosure.Button>
                             <Disclosure.Button
                                 as="a"
                                 href="#"
                                 className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
                             >
-                                Projects
+                                Events
                             </Disclosure.Button>
                             <Disclosure.Button
                                 as="a"
                                 href="#"
                                 className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
                             >
-                                Calendar
+                                Gallery
                             </Disclosure.Button>
                         </div>
-                        <div className="pt-4 pb-3 border-t border-gray-700">
-                            <div className="flex items-center px-5">
-                                <div className="flex-shrink-0">
-                                    <img
-                                        className="h-10 w-10 rounded-full"
-                                        src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
-                                        alt=""
-                                    />
-                                </div>
-                                <div className="ml-3">
-                                    <div className="text-base font-medium text-white">Tom Cook</div>
-                                    <div className="text-sm font-medium text-gray-400">tom@example.com</div>
-                                </div>
-                                <button
-                                    type="button"
-                                    className="ml-auto flex-shrink-0 bg-gray-800 p-1 rounded-full text-gray-400 hover:text-white focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white"
-                                >
-                                    <span className="sr-only">View notifications</span>
-                                    <BellIcon className="h-6 w-6" aria-hidden="true" />
-                                </button>
-                            </div>
-                            <div className="mt-3 px-2 space-y-1">
-                                <Disclosure.Button
-                                    as="a"
-                                    href="#"
-                                    className="block px-3 py-2 rounded-md text-base font-medium text-gray-400 hover:text-white hover:bg-gray-700"
-                                >
-                                    Your Profile
-                                </Disclosure.Button>
-                                <Disclosure.Button
-                                    as="a"
-                                    href="#"
-                                    className="block px-3 py-2 rounded-md text-base font-medium text-gray-400 hover:text-white hover:bg-gray-700"
-                                >
-                                    Settings
-                                </Disclosure.Button>
-                                <Disclosure.Button
-                                    as="a"
-                                    href="#"
-                                    className="block px-3 py-2 rounded-md text-base font-medium text-gray-400 hover:text-white hover:bg-gray-700"
-                                >
-                                    Sign out
-                                </Disclosure.Button>
-                            </div>
-                        </div>
+
                     </Disclosure.Panel>
                 </>
             )}
