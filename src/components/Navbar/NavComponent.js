@@ -24,8 +24,8 @@ export default function NavComponent() {
                                 <div className="flex-shrink-0">
                                  <h1 class='lukuHeader'>Luku The Mad Skald</h1>
                                 </div>
-                                <div className="hidden sm:block sm:ml-6">
-                                    <div className="flex mx-auto space-x-4">
+                                <div className="hidden  links sm:block sm:ml-6">
+                                    <div className="flex space-x-4">
                                         {/* Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" */}
                                         <a href="#" className="bg-gray-900 text-white px-3 py-2 rounded-md text-sm font-medium">
                                             Home
