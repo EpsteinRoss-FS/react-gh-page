@@ -12,7 +12,6 @@ const navigation = [
     { name: 'Media', href: 'media', current: false },
     { name: 'Gallery', href: 'gallery', current: false },
     { name: 'Presskit', href: 'press-kit', current: false },
-    { name: 'Socialmedia', href: 'social-media', current: false },
     { name: 'Songs', href: 'songs', current: false },
 
 ]
