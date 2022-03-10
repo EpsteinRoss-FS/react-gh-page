@@ -70,12 +70,12 @@ export default function NavComponent() {
                                         </a>
                                         <div
 
-                                            className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium m-lg-auto justify-content-end"
+                                            className="text-gray-300 px-3 py-2 rounded-md text-sm font-medium m-lg-auto justify-content-end"
                                         >
-                                            <a href="https://www.facebook.com/LukuTheMad" class="p-2"><FontAwesomeIcon icon={faFacebook}  /></a>
-                                            <a href="https://www.facebook.com/LukuTheMad" class="p-2"><FontAwesomeIcon icon={faInstagram}  /></a>
-                                            <a href="https://www.facebook.com/LukuTheMad" class="p-2"><FontAwesomeIcon icon={faTiktok}  /></a>
-                                            <a href="https://www.facebook.com/LukuTheMad" class="p-2"><FontAwesomeIcon icon={faYoutube}  /></a>
+                                            <a className="text-white-300 hover:bg-gray-500" href="https://www.facebook.com/LukuTheMad" class="p-2"><FontAwesomeIcon icon={faFacebook}  /></a>
+                                            <a className="text-white-300 hover:bg-gray-500" href="https://www.tiktok.com/@lukuthemad" class="p-2"><FontAwesomeIcon icon={faTiktok}  /></a>
+                                            <a className="text-white-300 hover:bg-gray-500" href="https://www.youtube.com/channel/UCefE81r5B55wheMVmaxGPfA" class="p-2"><FontAwesomeIcon icon={faYoutube}  /></a>
+                                            <a className="text-white-300 hover:bg-gray-500" href="https://www.instagram.com/lukuthemad/" class="p-2"><FontAwesomeIcon icon={faInstagram}  /></a>
 
                                         </div>
 
