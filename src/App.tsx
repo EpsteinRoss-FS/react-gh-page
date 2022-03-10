@@ -5,6 +5,7 @@ import { Routes, Route } from 'react-router-dom';
 import NavComponent from './components/Navbar/NavComponent';
 import HomeComponent from "./components/Homepage/HomeComponent";
 import MediaComponent from "./components/Media/MediaComponent";
+import FontAwesomeIcon from '@fortawesome/react-fontawesome'
 
 function App() {
   return (

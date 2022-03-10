@@ -2,7 +2,10 @@
 import { Fragment } from 'react'
 import { Disclosure, Menu, Transition } from '@headlessui/react'
 import { BellIcon, MenuIcon, XIcon } from '@heroicons/react/outline'
-import './NavComponent.css'
+import './NavComponent.css';
+import {faFacebook, faFacebookF, faInstagram, faTiktok, faYoutube} from "@fortawesome/free-brands-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+
 
 const navigation = [
     { name: 'Home', href: '/', current: false },
@@ -60,18 +63,25 @@ export default function NavComponent() {
                                             Press Kit
                                         </a>
                                         <a
-                                            href="social-media"
-                                            className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
-                                        >
-                                            Social Media
-                                        </a>
-                                        <a
                                             href="songs"
                                             className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
                                         >
                                             Songs
                                         </a>
+                                        <div
+
+                                            className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium m-lg-auto justify-content-end"
+                                        >
+                                            <a href="https://www.facebook.com/LukuTheMad" class="p-2"><FontAwesomeIcon icon={faFacebook}  /></a>
+                                            <a href="https://www.facebook.com/LukuTheMad" class="p-2"><FontAwesomeIcon icon={faInstagram}  /></a>
+                                            <a href="https://www.facebook.com/LukuTheMad" class="p-2"><FontAwesomeIcon icon={faTiktok}  /></a>
+                                            <a href="https://www.facebook.com/LukuTheMad" class="p-2"><FontAwesomeIcon icon={faYoutube}  /></a>
+
+                                        </div>
+
+
                                     </div>
+
                                 </div>
                             </div>
                             <div className="hidden sm:ml-6 sm:block">
@@ -146,13 +156,6 @@ export default function NavComponent() {
                                 className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
                             >
                                 Press Kit
-                            </Disclosure.Button>
-                            <Disclosure.Button
-                                as="a"
-                                href="social-media"
-                                className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
-                            >
-                                Social Media
                             </Disclosure.Button>
                             <Disclosure.Button
                                 as="a"
