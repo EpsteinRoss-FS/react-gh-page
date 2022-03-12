@@ -1,5 +1,7 @@
 import Feed from "instagram-feed-embed";
 import { FacebookProvider, Like,EmbeddedPost, Page  } from 'react-facebook';
+import ragnatree from '../../assets/images/ragnatree.png';
+
 /* This example requires Tailwind CSS v2.0+ */
 const posts = [
     {
@@ -81,12 +83,14 @@ export default function HomeComponent() {
                             </div>
                         </FacebookProvider>
                     </div>
-                    <div className="flex flex-col rounded-lg shadow-lg overflow-hidden">
-                        <FacebookProvider appId="1389193744849483">
-                            <div className="flex-shrink-0">
-                                <Page href="https://www.facebook.com/lukuthemad" tabs="timeline" />
-                            </div>
-                        </FacebookProvider>
+                    <div className="flex flex-col rounded-lg  overflow-hidden">
+
+                        <img src={ragnatree}/>
+                        {/*<FacebookProvider appId="1389193744849483">*/}
+                        {/*    <div className="flex-shrink-0">*/}
+                        {/*        <Page href="https://www.facebook.com/lukuthemad" tabs="timeline" />*/}
+                        {/*    </div>*/}
+                        {/*</FacebookProvider>*/}
                     </div>
                     <div className="flex flex-col rounded-lg shadow-lg overflow-hidden">
                         {/*<FacebookProvider appId="1389193744849483">*/}
