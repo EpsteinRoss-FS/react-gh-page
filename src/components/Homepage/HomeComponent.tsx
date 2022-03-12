@@ -1,4 +1,5 @@
-import { FacebookProvider, Feed, Like,EmbeddedPost, Page  } from 'react-facebook';
+import Feed from "instagram-feed-embed";
+import { FacebookProvider, Like,EmbeddedPost, Page  } from 'react-facebook';
 /* This example requires Tailwind CSS v2.0+ */
 const posts = [
     {
@@ -77,8 +78,30 @@ export default function HomeComponent() {
                         <FacebookProvider appId="1389193744849483">
                             <div className="flex-shrink-0">
                                 <Page href="https://www.facebook.com/lukuthemad" tabs="timeline" />
-                            </div>                    </FacebookProvider>
+                            </div>
+                        </FacebookProvider>
                     </div>
+                    <div className="flex flex-col rounded-lg shadow-lg overflow-hidden">
+                        <FacebookProvider appId="1389193744849483">
+                            <div className="flex-shrink-0">
+                                <Page href="https://www.facebook.com/lukuthemad" tabs="timeline" />
+                            </div>
+                        </FacebookProvider>
+                    </div>
+                    <div className="flex flex-col rounded-lg shadow-lg overflow-hidden">
+                        {/*<FacebookProvider appId="1389193744849483">*/}
+                            <div className="flex-shrink-0">
+                                <script async src="https://www.instagram.com/embed.js" />
+                                <Feed
+                                    userName="lukuthemad"
+                                    limit={12}
+                                    width={320}
+                                    maxContainerHeight={510}
+                                />
+                            </div>
+
+                    </div>
+
                     {/*{posts.map((post) => (*/}
                     {/*    <div key={post.title} className="flex flex-col rounded-lg shadow-lg overflow-hidden">*/}
                     {/*        <div className="flex-shrink-0">*/}
