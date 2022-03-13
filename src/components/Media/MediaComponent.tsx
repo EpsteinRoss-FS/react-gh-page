@@ -1,7 +1,4 @@
-import SpotifyPlayer from 'react-spotify-web-playback';
-import Feed from "instagram-feed-embed";
 import { FacebookProvider, Like,EmbeddedPost, Page  } from 'react-facebook';
-import ragnatree from '../../assets/images/ragnatree.png';
 import Embed from 'react-music-embed';
 
 export default function MediaComponent() {

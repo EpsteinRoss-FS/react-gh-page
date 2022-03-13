@@ -1,42 +1,10 @@
 
 import React, { useEffect, useState } from "react"
 import { CalendarIcon, LocationMarkerIcon, UsersIcon } from '@heroicons/react/solid'
-import { format } from 'date-fns';
 import moment from 'moment';
 
 const FetchEvents = () => {
     const [events, setEvents] = useState<any[]>([])
-
-    const positions = [
-        {
-            id: 1,
-            title: 'Back End Developer',
-            type: 'Full-time',
-            location: 'Remote',
-            department: 'Engineering',
-            closeDate: '2020-01-07',
-            closeDateFull: 'January 7, 2020',
-        },
-        {
-            id: 2,
-            title: 'Front End Developer',
-            type: 'Full-time',
-            location: 'Remote',
-            department: 'Engineering',
-            closeDate: '2020-01-07',
-            closeDateFull: 'January 7, 2020',
-        },
-        {
-            id: 3,
-            title: 'User Interface Designer',
-            type: 'Full-time',
-            location: 'Remote',
-            department: 'Design',
-            closeDate: '2020-01-14',
-            closeDateFull: 'January 14, 2020',
-        },
-    ]
-
     const fetchData = async () => {
         const apiKey = "AIzaSyDTZD_K_LsuDZ5kS5C8EpKVTDGcg1PaYhQ";
         const currentDate = new Date().toISOString();
