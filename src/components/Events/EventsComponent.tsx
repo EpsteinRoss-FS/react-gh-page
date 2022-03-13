@@ -94,9 +94,12 @@ const FetchEvents = () => {
                                             <CalendarIcon className="flex-shrink-0 mr-1.5 h-5 w-5 text-gray-400" aria-hidden="true" />
                                             <p>
 
-                                                From:    <b>
-                                                {moment(event.start.dateTime).format('MM-DD-YYYY')}</b>
-                                            {/*    {format(event.start.dateTime, 'dd/mm/yyyy')}*/}
+
+                                                <b>{event.start.dateTime == null ? "Weekends from:  " : "Date: "}</b>
+                                                {event.start.dateTime == null ? moment(event.start.date).format('MM-DD-YYYY') : moment(event.start.dateTime).format('MM-DD-YYYY')}
+
+                                                <b>{event.end.dateTime == null ? "   To:  " : ""}</b>
+                                                {event.start.dateTime == null ? moment(event.end.date).format('MM-DD-YYYY') : ""}
 
                                             </p>
                                         </div>
