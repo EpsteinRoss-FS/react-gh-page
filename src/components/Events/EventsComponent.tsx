@@ -1,6 +1,8 @@
+
 import React, { useEffect, useState } from "react"
 import { CalendarIcon, LocationMarkerIcon, UsersIcon } from '@heroicons/react/solid'
-
+import { format } from 'date-fns';
+import moment from 'moment';
 
 const FetchEvents = () => {
     const [events, setEvents] = useState<any[]>([])
@@ -91,7 +93,11 @@ const FetchEvents = () => {
                                         <div className="mt-2 flex items-center text-sm text-gray-500 sm:mt-0">
                                             <CalendarIcon className="flex-shrink-0 mr-1.5 h-5 w-5 text-gray-400" aria-hidden="true" />
                                             <p>
-                                                Closing on <time dateTime={event.name}>{event.name}</time>
+
+                                                From:    <b>
+                                                {moment(event.start.dateTime).format('MM-DD-YYYY')}</b>
+                                            {/*    {format(event.start.dateTime, 'dd/mm/yyyy')}*/}
+
                                             </p>
                                         </div>
                                     </div>
