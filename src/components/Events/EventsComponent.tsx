@@ -6,7 +6,7 @@ import moment from 'moment';
 const FetchEvents = () => {
     const [events, setEvents] = useState<any[]>([])
     const fetchData = async () => {
-        const apiKey = "AIzaSyDTZD_K_LsuDZ5kS5C8EpKVTDGcg1PaYhQ";
+        let apiKey = process.env.REACT_APP_CALENDAR_API_KEY;
         const currentDate = new Date().toISOString();
         await fetch('https://www.googleapis.com/calendar/v3/calendars/vcjolj9j5oq560bp0mtgqi0jio%40group.calendar.google.com/events?' +
             'orderBy=startTime&singleEvents=true&timeMin='
@@ -28,14 +28,6 @@ const FetchEvents = () => {
 
     return (
         <div>
-            {/*{events.length > 0 && (*/}
-            {/*    <ul>*/}
-            {/*        {events.map(event => (*/}
-            {/*            <li key={event.id}>{event.summary}</li>*/}
-            {/*        ))}*/}
-            {/*    </ul>*/}
-            {/*)}*/}
-
             <div className="bg-white shadow overflow-hidden sm:rounded-md">
                 <ul role="list" className="divide-y divide-gray-200">
                     {events.map((event) => (
