@@ -14,6 +14,7 @@ import EventsComponent from "./components/Events/EventsComponent";
 function App() {
   return (
     <div className="App">
+
       <NavComponent />
       <section>
         <Routes>
