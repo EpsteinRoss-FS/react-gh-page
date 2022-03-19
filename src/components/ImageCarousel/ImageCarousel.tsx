@@ -222,7 +222,7 @@ let khrf2020 = [
 
         //template
         // let fairname = [
-        //         {url: '/images/galleries/khrf2020/khrf2020_1.jpg', thumbUrl: '/images/galleries/khrf2020/thumbs/thumb_khrf2020_1.jpg'},
+        //         {url: '/images/galleries/fairname/fairname_1.jpg', thumbUrl: '/images/galleries/fairname/thumbs/thumb_fairname_1.jpg'},
         // ];
 
 
