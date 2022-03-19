@@ -1,7 +1,7 @@
 import {Link, useLocation, useSearchParams} from "react-router-dom";
 import "react-awesome-lightbox/build/style.css";
 import DztImageGalleryComponent from "reactjs-image-gallery";
-
+import "./carousel.css";
 
 
 export default function ImageCarousel() {
@@ -249,7 +249,7 @@ let khrf2020 = [
         <div className="bg-white">
 
                 <section className="overflow-hidden text-gray-700 ">
-                        <div className="container px-5 py-2 mx-auto lg:pt-12 lg:px-32">
+                        {/*<div className="container px-5 py-2 mx-auto lg:pt-12 lg:px-32">*/}
                                 <DztImageGalleryComponent images={galleryImages} />
                                 {/*<div className="flex flex-wrap -m-1 md:-m-2">*/}
                                 {/*        {galleryImages.map((img) =>*/}
@@ -261,7 +261,7 @@ let khrf2020 = [
                                 {/*                </div>*/}
                                 {/*        </div>)}*/}
                                 {/*</div>*/}
-                        </div>
+                        {/*</div>*/}
                 </section>
         </div>
     )
