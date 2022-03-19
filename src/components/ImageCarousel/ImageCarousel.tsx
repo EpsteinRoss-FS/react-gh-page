@@ -224,6 +224,7 @@ let khrf2020 = [
         switch(galleryId){
                 case 'irf2019':
                         galleryImages = irf2019;
+
                         break;
                 case 'khrf2020':
                         galleryImages = khrf2020;
@@ -239,7 +240,7 @@ let khrf2020 = [
                         break;
         }
 
-        const galleryName =searchParams.get('galleryName')
+        const galleryName = searchParams.get('galleryName')
     // console.log(searchParams);
         console.log(galleryImages);
 
@@ -249,8 +250,10 @@ let khrf2020 = [
         <div className="bg-white">
 
                 <section className="overflow-hidden text-gray-700 ">
+
                         {/*<div className="container px-5 py-2 mx-auto lg:pt-12 lg:px-32">*/}
-                                <DztImageGalleryComponent images={galleryImages} />
+                        <h1>{galleryName}</h1>
+                        <DztImageGalleryComponent images={galleryImages} />
                                 {/*<div className="flex flex-wrap -m-1 md:-m-2">*/}
                                 {/*        {galleryImages.map((img) =>*/}
                                 {/*        <div className="flex flex-wrap w-1/3">*/}
