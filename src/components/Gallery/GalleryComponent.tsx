@@ -12,9 +12,9 @@ export default function GalleryComponent() {
     let galleryThumbs = [
         {name: 'Kentucky Highland Renaissance Festival 2021', url: '/images/thumbs/khrf2021_thumb.jpg', link: 'khrf2021'},
         {name: 'Robin Hood\'s Faire 2021', url: '/images/thumbs/rh2021_thumb.jpg', link: 'robinct2021'},
-        {name: 'Kentucky Highland Renaissance Festival 2020', url: '/images/thumbs/khrf2020_thumb.jpg', link: 'khrf20'},
-        {name: 'Indiana Renaissance Festival 2019', url: '/images/thumbs/irf19_thumb.jpg', link: 'irf19'},
-        {name: 'Kentucky Highland Renaissance Festival 2019', url: '/images/thumbs/khrf19_thumb.jpg', link: 'khrf19'},
+        {name: 'Kentucky Highland Renaissance Festival 2020', url: '/images/thumbs/khrf2020_thumb.jpg', link: 'khrf2020'},
+        {name: 'Indiana Renaissance Festival 2019', url: '/images/thumbs/irf19_thumb.jpg', link: 'irf2019'},
+        {name: 'Kentucky Highland Renaissance Festival 2019', url: '/images/thumbs/khrf19_thumb.jpg', link: 'khrf2019'},
     ];
 
 
