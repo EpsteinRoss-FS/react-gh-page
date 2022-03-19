@@ -199,10 +199,32 @@ let khrf2020 = [
                 {url: '/images/galleries/sc2021/luku_suncoast2021_3.jpg', thumbUrl: '/images/galleries/sc2021/thumbs/thumb_luku_suncoast2021_3.jpg'},
         ];
 
+        let nff2022 = [
+                {url: '/images/galleries/nff2022/luku_nff2022_1.jpg', thumbUrl: '/images/galleries/nff2022/thumbs/thumb_luku_nff2022_1.jpg'},
+                {url: '/images/galleries/nff2022/luku_nff2022_2.jpg', thumbUrl: '/images/galleries/nff2022/thumbs/thumb_luku_nff2022_2.jpg'},
+                {url: '/images/galleries/nff2022/luku_nff2022_3.jpg', thumbUrl: '/images/galleries/nff2022/thumbs/thumb_luku_nff2022_3.jpg'},
+                {url: '/images/galleries/nff2022/luku_nff2022_4.jpg', thumbUrl: '/images/galleries/nff2022/thumbs/thumb_luku_nff2022_4.jpg'},
+                {url: '/images/galleries/nff2022/luku_nff2022_5.jpg', thumbUrl: '/images/galleries/nff2022/thumbs/thumb_luku_nff2022_5.jpg'},
+                {url: '/images/galleries/nff2022/luku_nff2022_6.jpg', thumbUrl: '/images/galleries/nff2022/thumbs/thumb_luku_nff2022_6.jpg'},
+                {url: '/images/galleries/nff2022/luku_nff2022_7.jpg', thumbUrl: '/images/galleries/nff2022/thumbs/thumb_luku_nff2022_7.jpg'},
+                {url: '/images/galleries/nff2022/luku_nff2022_8.jpg', thumbUrl: '/images/galleries/nff2022/thumbs/thumb_luku_nff2022_8.jpg'},
+                {url: '/images/galleries/nff2022/luku_nff2022_9.jpg', thumbUrl: '/images/galleries/nff2022/thumbs/thumb_luku_nff2022_9.jpg'},
+                {url: '/images/galleries/nff2022/luku_nff2022_10.jpg', thumbUrl: '/images/galleries/nff2022/thumbs/thumb_luku_nff2022_10.jpg'},
+                {url: '/images/galleries/nff2022/luku_nff2022_11.jpg', thumbUrl: '/images/galleries/nff2022/thumbs/thumb_luku_nff2022_11.jpg'},
+                {url: '/images/galleries/nff2022/luku_nff2022_12.jpg', thumbUrl: '/images/galleries/nff2022/thumbs/thumb_luku_nff2022_12.jpg'},
+                {url: '/images/galleries/nff2022/luku_nff2022_13.jpg', thumbUrl: '/images/galleries/nff2022/thumbs/thumb_luku_nff2022_13.jpg'},
+                {url: '/images/galleries/nff2022/luku_nff2022_14.jpg', thumbUrl: '/images/galleries/nff2022/thumbs/thumb_luku_nff2022_14.jpg'},
+                {url: '/images/galleries/nff2022/luku_nff2022_15.jpg', thumbUrl: '/images/galleries/nff2022/thumbs/thumb_luku_nff2022_15.jpg'},
+                {url: '/images/galleries/nff2022/luku_nff2022_16.jpg', thumbUrl: '/images/galleries/nff2022/thumbs/thumb_luku_nff2022_16.jpg'},
+                {url: '/images/galleries/nff2022/luku_nff2022_17.jpg', thumbUrl: '/images/galleries/nff2022/thumbs/thumb_luku_nff2022_17.jpg'},
+        ];
+
+
         //template
         // let fairname = [
         //         {url: '/images/galleries/khrf2020/khrf2020_1.jpg', thumbUrl: '/images/galleries/khrf2020/thumbs/thumb_khrf2020_1.jpg'},
         // ];
+
 
 
         const test = [
@@ -236,7 +258,9 @@ let khrf2020 = [
         switch(galleryId){
                 case 'irf2019':
                         galleryImages = irf2019;
-
+                        break;
+                case 'nff2022':
+                        galleryImages = nff2022;
                         break;
                 case 'khrf2020':
                         galleryImages = khrf2020;
