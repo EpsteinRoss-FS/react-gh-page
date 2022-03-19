@@ -3,6 +3,7 @@ import { Disclosure, Menu, Transition } from '@headlessui/react'
 import ImageGallery from 'react-image-gallery';
 import { BellIcon, MenuIcon, XIcon } from '@heroicons/react/outline'
 import {map} from "react-bootstrap/ElementChildren";
+import {Link} from "react-router-dom";
 
 
 
@@ -30,6 +31,8 @@ export default function GalleryComponent() {
                         className="space-y-12 sm:grid sm:grid-cols-2 sm:gap-x-6 sm:gap-y-12 sm:space-y-0 lg:grid-cols-3 lg:gap-x-8"
                     >
                         {galleryThumbs.map((gallery) => (
+                            <div>
+                            <Link to={`/carousel?galleryId=${gallery.link}&galleryName=${gallery.name}`} >
                             <li key={gallery.name}>
                                 <div className="space-y-4">
                                     <div className="aspect-w-3 aspect-h-2">
@@ -66,6 +69,9 @@ export default function GalleryComponent() {
                                     </div>
                                 </div>
                             </li>
+                            </Link>
+                            </div>
+
                         ))}
                     </ul>
                 </div>

@@ -10,6 +10,7 @@ import SongsComponent from "./components/Songs/SongsComponent";
 import PressKitComponent from "./components/PressKit/PressKitComponent";
 import GalleryComponent from "./components/Gallery/GalleryComponent";
 import EventsComponent from "./components/Events/EventsComponent";
+import ImageCarousel from "./components/ImageCarousel/ImageCarousel";
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
             <Route path="songs" element={<SongsComponent />} />
             <Route path="press-kit" element={<PressKitComponent />} />
             <Route path="gallery" element={<GalleryComponent />} />
+            <Route path="carousel" element={<ImageCarousel />} />
         </Routes>
       </section>
 
