@@ -193,6 +193,18 @@ let khrf2020 = [
 
     ];
 
+        let sc2021 = [
+                {url: '/images/galleries/sc2021/luku_suncoast2021_1.jpg', thumbUrl: '/images/galleries/sc2021/thumbs/thumb_luku_suncoast2021_1.jpg'},
+                {url: '/images/galleries/sc2021/luku_suncoast2021_2.jpg', thumbUrl: '/images/galleries/sc2021/thumbs/thumb_luku_suncoast2021_2.jpg'},
+                {url: '/images/galleries/sc2021/luku_suncoast2021_3.jpg', thumbUrl: '/images/galleries/sc2021/thumbs/thumb_luku_suncoast2021_3.jpg'},
+        ];
+
+        //template
+        // let fairname = [
+        //         {url: '/images/galleries/khrf2020/khrf2020_1.jpg', thumbUrl: '/images/galleries/khrf2020/thumbs/thumb_khrf2020_1.jpg'},
+        // ];
+
+
         const test = [
                 {
                         url: 'https://picsum.photos/id/1018/1000/600/',
@@ -237,6 +249,9 @@ let khrf2020 = [
                         break;
                 case 'robinct2021':
                         galleryImages = rh2021;
+                        break
+                case 'sc2021':
+                        galleryImages = sc2021;
                         break;
         }
 

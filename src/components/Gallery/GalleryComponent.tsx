@@ -10,6 +10,7 @@ import {Link} from "react-router-dom";
 export default function GalleryComponent() {
 
     let galleryThumbs = [
+        {name: 'Suncoast Renaissance Festival 2021', url: '/images/thumbs/sc21_thumb.jpg', link: 'sc2021'},
         {name: 'Kentucky Highland Renaissance Festival 2021', url: '/images/thumbs/khrf2021_thumb.jpg', link: 'khrf2021'},
         {name: 'Robin Hood\'s Faire 2021', url: '/images/thumbs/rh2021_thumb.jpg', link: 'robinct2021'},
         {name: 'Kentucky Highland Renaissance Festival 2020', url: '/images/thumbs/khrf2020_thumb.jpg', link: 'khrf2020'},
