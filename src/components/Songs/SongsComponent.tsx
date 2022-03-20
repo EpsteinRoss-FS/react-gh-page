@@ -376,7 +376,9 @@ const songs = {
 
 export default function SongsComponent() {
     return (
-        <nav className="h-full overflow-y-auto" aria-label="songs">
+        <div className='bg-slate-400'>
+            <h1 className="lukuHeader-pages">Song List</h1>
+        <div className="mx-auto bg-slate-600  max-w-7xl sm:px-6 lg:px-8 lg:py-6">
             {Object.keys(songs).map((genre) => (
                 <div key={genre} className="relative">
                     <div className="z-10 sticky top-0 border-t border-b border-gray-400 bg-blue-100 px-6 py-1 text-sm font-medium text-gray-500">
@@ -404,6 +406,7 @@ export default function SongsComponent() {
                     {/*<br className="co-black" />*/}
                 </div>
             ))}
-        </nav>
+        </div>
+        </div>
     )
 }
