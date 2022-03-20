@@ -259,6 +259,12 @@ const songs = {
             album: 'We\'re All Going To Helheim',
 
         },
+        {
+            id: 16,
+            name: 'Lydia The Tattooed Lady',
+            album: 'Very Unnecessary Lewd Vulgar Album',
+
+        },
     ],
 
 
