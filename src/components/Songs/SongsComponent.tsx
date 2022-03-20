@@ -162,6 +162,57 @@ const songs = {
             album: 'From Under The Northern Lights',
 
         },
+        {
+            id: 27,
+            name: 'Empathy',
+            // album: 'From Under The Northern Lights',
+
+        },
+        {
+            id: 28,
+            name: 'Finnegan\'s Wake',
+            // album: 'From Under The Northern Lights',
+
+        },
+        {
+            id: 28,
+            name: 'Remember When?',
+            album: 'Pissed Drunk & Pissed Off',
+
+        },
+        {
+            id: 29,
+            name: 'Rowdy Soul',
+            // album: 'Pissed Drunk & Pissed Off',
+
+        },
+        {
+            id: 30,
+            name: 'South Australia',
+            // album: 'Pissed Drunk & Pissed Off',
+
+        },
+        {
+            id: 31,
+            name: 'Where The Sea Meets The Sky',
+            // album: 'Pissed Drunk & Pissed Off',
+
+        },
+        {
+            id: 32,
+            name: 'The Mermaid',
+            // album: 'Pissed Drunk & Pissed Off',
+        },
+        {
+            id: 33,
+            name: 'Starlight/Starshine',
+            // album: 'Pissed Drunk & Pissed Off',
+        },      {
+
+            id: 34,
+            name: 'The Siege of Midgetown',
+            // album: 'Pissed Drunk & Pissed Off',
+        },
 
 
 
@@ -265,6 +316,25 @@ const songs = {
             album: 'Very Unnecessary Lewd Vulgar Album',
 
         },
+        {
+            id: 17,
+            name: 'Roll Your Leg Over',
+            album: 'We\'re All Going To Helheim',
+
+        },
+        {
+            id: 18,
+            name: 'Johnny Come Down To Hilo',
+            album: 'Very Unnecessary Lewd Vulgar Album',
+
+        },
+        {
+            id: 16,
+            name: 'Scotland\'s Depraved',
+            album: 'Very Unnecessary Lewd Vulgar Album',
+
+        },
+
     ],
 
 
