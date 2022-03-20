@@ -207,10 +207,21 @@ const songs = {
             id: 33,
             name: 'Starlight/Starshine',
             // album: 'Pissed Drunk & Pissed Off',
-        },      {
+        },
+        {
 
             id: 34,
             name: 'The Siege of Midgetown',
+            // album: 'Pissed Drunk & Pissed Off',
+        },
+        {
+            id: 34,
+            name: 'Nancy The Tavern Wench',
+            // album: 'Pissed Drunk & Pissed Off',
+        },
+        {
+            id: 34,
+            name: 'Courting In The Kitchen',
             // album: 'Pissed Drunk & Pissed Off',
         },
 
@@ -361,8 +372,6 @@ const songs = {
         },
 
     ],
-
-
 }
 
 export default function SongsComponent() {
