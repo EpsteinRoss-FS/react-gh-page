@@ -48,6 +48,120 @@ const songs = {
             album: 'Songs From The Briarwood',
 
         },
+        {
+            id: 8,
+            name: 'I\'s The By',
+            // album: 'Songs From The Briarwood',
+
+        },
+        {
+            id: 9,
+            name: 'Lifeblood',
+            album: 'From Under The Northern Lights',
+
+        },
+        {
+            id: 10,
+            name: 'Loch Lomond',
+            album: 'Songs From The Briarwood',
+
+        },
+        {
+            id: 11,
+            name: 'Mari Mac',
+            // album: 'Songs From The Briarwood',
+
+        },
+        {
+            id: 12,
+            name: 'Mingulay Boat Song',
+            album: 'Songs From The Briarwood',
+
+        },
+        {
+            id: 13,
+            name: 'Nancy Whiskey',
+            // album: 'Songs From The Briarwood',
+
+        },
+        {
+            id: 14,
+            name: 'Of Silk And Fine Furs',
+            album: 'From Under The Northern Lights',
+
+        },
+        {
+            id: 15,
+            name: 'Paddy West',
+            album: 'Songs From The Briarwood',
+
+        },
+        {
+            id: 16,
+            name: 'Places Unseen',
+            album: 'From Under The Northern Lights',
+
+        },
+        {
+            id: 17,
+            name: 'Raise Your Horns To The Sky',
+            album: 'From Under The Northern Lights',
+
+        },
+        {
+            id: 18,
+            name: 'Run Runaway',
+            // album: 'Songs From The Briarwood',
+
+        },
+        {
+            id: 19,
+            name: 'Tell Me Ma',
+            album: 'Songs From The Briarwood',
+
+        },
+        {
+            id: 20,
+            name: 'Truth About The Vikings',
+            album: 'From Under The Northern Lights',
+
+        },
+        {
+            id: 21,
+            name: 'Twilight Of The Thunder God',
+            album: 'From Under The Northern Lights',
+
+        },
+        {
+            id: 22,
+            name: 'Under The Glow',
+            album: 'Songs From The Briarwood',
+
+        },
+        {
+            id: 23,
+            name: 'Whiskey In The Jar',
+            album: 'Songs From The Briarwood',
+
+        },
+        {
+            id: 24,
+            name: 'IKEA',
+            // album: 'Songs From The Briarwood',
+
+        },
+        {
+            id: 25,
+            name: 'Wild Mountain Thyme',
+            album: 'Songs From The Briarwood',
+
+        },
+        {
+            id: 26,
+            name: 'Yggdrasil',
+            album: 'From Under The Northern Lights',
+
+        },
 
 
 
@@ -57,31 +171,93 @@ const songs = {
     Bawdy: [
         {
             id: 1,
-            name: 'Leslie Abbott',
-            role: 'Co-Founder / CEO',
-            imageUrl:
-                'https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
+            name: 'Betty West',
+            album: 'We\'re All Going To Helheim',
+
         },
         {
             id: 2,
-            name: 'Hector Adams',
-            role: 'VP, Marketing',
-            imageUrl:
-                'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
+            name: 'Big Bosomed Girls',
+            // album: 'We\'re All Going To Helheim',
+
         },
         {
             id: 3,
-            name: 'Blake Alexander',
-            role: 'Account Coordinator',
-            imageUrl:
-                'https://images.unsplash.com/photo-1520785643438-5bf77931f493?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
+            name: 'Boned Her In The Alley',
+            album: 'We\'re All Going To Helheim',
+
         },
         {
             id: 4,
-            name: 'Fabricio Andrews',
-            role: 'Senior Art Director',
-            imageUrl:
-                'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
+            name: 'The Chandler\'s Wife',
+            album: 'We\'re All Going To Helheim',
+
+        },
+        {
+            id: 5,
+            name: 'Charlotte the Harlot',
+            album: 'Very Unnecessary Lewd Vulgar Album',
+
+        },
+        {
+            id: 6,
+            name: 'Renfaire Day (First Of May)',
+            album: 'Very Unnecessary Lewd Vulgar Album',
+
+        },
+        {
+            id: 7,
+            name: 'Grandfather\'s Song',
+            album: 'We\'re All Going To Helheim',
+
+        },
+        {
+            id: 8,
+            name: 'How The Money Rolls In',
+            album: 'Very Unnecessary Lewd Vulgar Album',
+
+        },
+        {
+            id: 9,
+            name: 'Johnny Be Fair',
+            album: 'We\'re All Going To Helheim',
+
+        },
+        {
+            id: 10,
+            name: 'Mingulay Corpse Song',
+            album: 'We\'re All Going To Helheim',
+
+        },
+        {
+            id: 11,
+            name: 'O\'Reiley\'s Daughter',
+            album: 'We\'re All Going To Helheim',
+
+        },
+        {
+            id: 12,
+            name: 'The Scottsman',
+            album: 'Very Unnecessary Lewd Vulgar Album',
+
+        },
+        {
+            id: 13,
+            name: 'The Widow And The Devil',
+            // album: 'Very Unnecessary Lewd Vulgar Album',
+
+        },
+        {
+            id: 14,
+            name: 'To Hell With The Company',
+            album: 'We\'re All Going To Helheim',
+
+        },
+        {
+            id: 15,
+            name: 'XY(ZED)',
+            album: 'We\'re All Going To Helheim',
+
         },
     ],
 
