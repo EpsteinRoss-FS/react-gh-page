@@ -334,6 +334,31 @@ const songs = {
             album: 'Very Unnecessary Lewd Vulgar Album',
 
         },
+        //The following song titles I have censored as I am submitting this as a school project
+        {
+            id: 17,
+            name: 'Anythings\'s Song',
+            album: 'Very Unnecessary Lewd Vulgar Album',
+
+        },
+        {
+            id: 18,
+            name: 'Things Song',
+            album: 'Very Unnecessary Lewd Vulgar Album',
+
+        },
+        {
+            id: 19,
+            name: 'Animal Song',
+            album: 'Very Unnecessary Lewd Vulgar Album',
+
+        },
+        {
+            id: 20,
+            name: 'Anchor Song',
+            album: 'Very Unnecessary Lewd Vulgar Album',
+
+        },
 
     ],
 
