@@ -286,12 +286,13 @@ let khrf2020 = [
 
     return(
 
-        <div className="bg-white">
+        <div className="relative bg-slate-400 pb-20 px-4 sm:px-6">
 
-                <section className="overflow-hidden text-gray-700 ">
+
+        <section className="overflow-hidden text-gray-700 ">
 
                         {/*<div className="container px-5 py-2 mx-auto lg:pt-12 lg:px-32">*/}
-                        <h1>{galleryName}</h1>
+                        <h1 className="lukuHeader-pages">{galleryName}</h1>
                         <DztImageGalleryComponent images={galleryImages} />
                                 {/*<div className="flex flex-wrap -m-1 md:-m-2">*/}
                                 {/*        {galleryImages.map((img) =>*/}

@@ -14,3 +14,31 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.lukuHeader {
+  font-size: 1.4rem;
+  color: white;
+  font-family: "Ringbearer";
+  text-shadow: 2px 0 3px #145cd7;
+  text-shadow: 3px 0 1px black;
+}
+
+.lukuHeader-pages {
+  font-size: 2rem;
+  color: white;
+  font-family: "Ringbearer";
+  text-shadow: 2px 0 3px #145cd7;
+  text-shadow: 3px 0 1px black;
+}
+
+.headerFlame{
+  /*color: #FFFFFF;*/
+  /*background: #333333;*/
+  text-shadow: 0 -1px 4px #FFF, 0 -2px 10px #145cd7, 0 -10px 20px #0028c0, 0 -18px 40px #03007a;
+  /*text-shadow: 0 0 5px #FFF, 0 0 10px #a9f4ff, 0 0 15px #75dfff, 0 0 20px #145cd7, 0 0 30px #49FF18, 0 0 40px #49FF18, 0 0 55px #49FF18, 0 0 75px #49ff18;*/
+}
+
+.headerShadow {
+  text-shadow: 1px 1px 2px #474747;
+  /*text-shadow: 0 0 5px #03007a, 0 0 10px #03007a, 0 0 15px #00b2ff, 0 0 20px #03007a, 0 0 30px #49FF18, 0 0 40px #49FF18, 0 0 55px #49FF18, 0 0 75px #49ff18;*/
+}

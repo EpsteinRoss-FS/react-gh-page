@@ -4,17 +4,19 @@ import Embed from 'react-music-embed';
 export default function MediaComponent() {
     return (
 
-        <div className="relative bg-slate-400 pt-16 pb-20 px-4 sm:px-6 lg:pt-24 lg:pb-28 lg:px-8">
+        <div className="relative bg-slate-400 pb-20 px-4 sm:px-6">
 
+        <h1 className="lukuHeader-pages">Media</h1>
             {/*<div className="absolute inset-0">*/}
             {/*    <div className="bg-white h-1/3 sm:h-2/3" />*/}
             {/*</div>*/}
             <div className="relative max-w-7xl mx-auto">
+
                 <div className="mt-12 max-w-lg mx-auto grid gap-5 lg:grid-cols-3 lg:max-w-none">
                     <div className="flex flex-col rounded-lg m-lg-auto  overflow-hidden">
                         <FacebookProvider appId="1389193744849483">
                             <div className="flex-shrink-0">
-                                <h1 className="text-center">Spotify</h1>
+                                {/*<h1 className="text-center">Spotify</h1>*/}
                                 <iframe src="https://open.spotify.com/embed/artist/6mbwmUYgWsO2IVS6lMTmQC" width="320"
                                         height="400" frameBorder="0" allowTransparency={true}
                                         allow="encrypted-media"></iframe>

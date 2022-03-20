@@ -28,8 +28,9 @@ const FetchEvents = () => {
 
     return (
         <div>
-            <div className="bg-white shadow overflow-hidden sm:rounded-md">
-                <ul role="list" className="divide-y divide-gray-200">
+            <div className="relative bg-slate-400 pt-5 pb-20 px-4 sm:px-6">
+                <h1 className="lukuHeader-pages">Upcoming Events</h1>
+            <ul role="list" className="divide-y bg-white divide-gray-200">
                     {events.map((event) => (
                         <li key={event.id}>
                             <a href="#" className="block hover:bg-gray-50">
