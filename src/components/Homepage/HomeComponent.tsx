@@ -12,7 +12,7 @@ export default function HomeComponent() {
             {/*</div>*/}
             <div className="relative max-w-7xl mx-auto">
                 <div className="text-center">
-                    <h2 className="text-3xl tracking-tight font-extrabold text-slate-800 sm:text-4xl lukuFont headerShadow">Luku The Mad Skald</h2>
+                    <h2 className="text-3xl tracking-tight font-extrabold text-slate-300 sm:text-4xl lukuFont headerShadow">Luku The Mad Skald</h2>
                     <p className="mt-3 max-w-2xl mx-auto text-xl text-slate-800 sm:mt-4 lukuFont headerGlow">
                         Poetic Eddas for the Modern Boozer!
                     </p>
