@@ -30,10 +30,10 @@ const FetchEvents = () => {
         <div>
             <div className="relative bg-slate-400 pt-5 pb-20 px-4 sm:px-6">
                 <h1 className="lukuHeader-pages">Upcoming Events</h1>
-            <ul role="list" className="divide-y bg-white divide-gray-200">
+            <ul role="list" className="divide-y bg-slate-200 divide-gray-400 divide-5">
                     {events.map((event) => (
                         <li key={event.id}>
-                            <a href="#" className="block hover:bg-gray-50">
+                            <a href={'http://maps.google.com/?q=' +  event.location } className="pt-4 block hover:bg-gray-50">
                                 <div className="px-4 py-4 sm:px-6">
                                     <div className="flex items-center justify-between">
                                         <p className="text-sm font-medium text-indigo-600 truncate">{event.summary}</p>

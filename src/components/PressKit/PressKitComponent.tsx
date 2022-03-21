@@ -16,7 +16,7 @@
 */
 export default function PressKitComponent() {
     return (
-        <div className="relative bg-white">
+        <div className="relative bg-slate-300">
             <div className="lg:absolute lg:inset-0">
                 <div className="lg:absolute lg:inset-y-0 lg:left-0 lg:w-1/2">
                     <img
