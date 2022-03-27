@@ -9,6 +9,7 @@ ReactDOM.render(
   <React.StrictMode>
     <link rel="stylesheet" href="https://rsms.me/inter/inter.css" />
       <BrowserRouter>
+
           <App />
       </BrowserRouter>
   </React.StrictMode>,
