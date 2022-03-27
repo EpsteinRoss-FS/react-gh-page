@@ -1,14 +1,15 @@
 import Feed from "instagram-feed-embed";
 import { FacebookProvider, Like,EmbeddedPost, Page  } from 'react-facebook';
 import ragnatree from '../../assets/images/ragnatree.png';
+import bgimg from '../../assets/images/bg.png';
 
 export default function HomeComponent() {
     return (
 
-        <div className="relative bg-slate-400 pb-20 pt-5 px-4 sm:px-6" style={{
-            backgroundImage: `url("https://via.placeholder.com/500")`
-        }}>
-
+        <div className="relative bg-slate-400 pb-20 pt-5 px-4 sm:px-6" >
+        {/*    style={{*/}
+        {/*    backgroundImage: `url('https://lukuthemad.com/northern_lights.fc566c49adaa7798686f.png')`*/}
+        {/*}}*/}
 
             {/*<div className="absolute inset-0">*/}
             {/*    <div className="bg-white h-1/3 sm:h-2/3" />*/}
